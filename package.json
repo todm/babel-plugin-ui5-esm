@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-ui5-esm",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel ./test/src --out-dir ./test/dist"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@ui5/logger": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16"
+  }
+}
