@@ -1,10 +1,11 @@
 {
-  "name": "babel-plugin-ui5-esm",
+  "name": "@todms/babel-plugin-ui5-esm",
   "version": "1.0.0",
-  "main": "./lib/index.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "babel ./test/src --out-dir ./test/dist"
+  "description": "Babel plugin to turn ESModules into ui5 AMD modules",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
   "dependencies": {
     "@babel/core": "^7.14.2",
@@ -12,5 +13,27 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todm/babel-plugin-esm.git"
+  },
+  "keywords": [
+    "ui5",
+    "babel",
+    "esm",
+    "amd"
+  ],
+  "author": "todm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/todm/babel-plugin-esm/issues"
+  },
+  "homepage": "https://github.com/todm/babel-plugin-esm#readme",
+  "files": [
+    "lib"
+  ]
 }

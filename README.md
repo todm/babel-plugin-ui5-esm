@@ -8,7 +8,7 @@ To use this plugin in a ui5 project you need a [babel task](https://github.com/t
 Add the plugin to your project as a dev dependency.
 
 ```sh
-npm i -D git+https://github.com/todm/babel-plugin-ui5-esm.git
+npm i -D @todms/babel-plugin-ui5-esm
 ```
 
 Add the plugin to your babel configuration file
@@ -17,7 +17,7 @@ Add the plugin to your babel configuration file
 # babel.config.json
 {
     "plugins": [
-        ["babel-plugin-ui5-esm"]
+        ["@todms/babel-plugin-ui5-esm"]
     ]
 }
 ```
