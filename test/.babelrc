@@ -1,5 +1,5 @@
 {
     "plugins": [
-        ["../lib", {"noWarnings": false}]
+        ["../lib", {}]
     ]
 }
