@@ -3,7 +3,7 @@
 Babel plugin to turn ESModules into ui5 AMD modules.
 To use this plugin in a ui5 project you need a [babel task](https://github.com/todm/ui5-task-babel).
 
-This plugin is a modification of [@babel/plugin-transform-modules-amd](https://babeljs.io/docs/en/babel-plugin-transform-modules-amd) with changes to make it compatible with ui5 moduled.
+This plugin is a modification of [@babel/plugin-transform-modules-amd](https://babeljs.io/docs/en/babel-plugin-transform-modules-amd) with changes to make it compatible with the ui5 module system .
 
 # Installation
 
@@ -34,7 +34,7 @@ The ui5 module system supports only one singular export per module. Multiple exp
 
 If the file will only be read by another ES module using default and named exports at the same time is fine and will be checked for automatically.
 
-
+**Files that already include `sap.ui.define()` will not be altered.**
 
 ## Plugin options
 See options for [@babel/plugin-transform-modules-amd](https://babeljs.io/docs/en/babel-plugin-transform-modules-amd)
