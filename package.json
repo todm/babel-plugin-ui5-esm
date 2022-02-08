@@ -1,6 +1,6 @@
 {
   "name": "@todms/babel-plugin-ui5-esm",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Babel plugin to turn ESModules into ui5 AMD modules",
   "main": "lib/index.js",
   "directories": {
@@ -11,7 +11,6 @@
     "@babel/core": "^7.14.2",
     "@babel/helper-module-transforms": "^7.16.7",
     "@babel/helper-plugin-utils": "^7.16.7",
-    "@ui5/logger": "^2.0.1",
     "babel-plugin-dynamic-import-node": "^2.3.3"
   },
   "devDependencies": {
@@ -19,7 +18,8 @@
     "eslint": "^8.8.0"
   },
   "scripts": {
-    "test": "babel test/src/Main.js --out-file test/dist/Main.js"
+    "test": "babel test/src/Main.js --out-file test/dist/Main.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
